@@ -1,4 +1,5 @@
-*{outline: 1px solid rgba(0,255,0,0.3);font-family: "Baloo Paaji";margin: 0;padding: 0;border: 0;}
+*{
+    outline: 1px solid rgba(0,255,0,0.3); font-family: "Baloo Paaji";margin: 0;padding: 0;border: 0;}
   
 .container{
     width: 75%;
@@ -6,6 +7,14 @@
 }
 img{
     width: 100%;
+}
+body{
+    background-color: #f4f9f9;
+}
+
+h4,h3{
+    text-align: center;
+    color: #ea728e;
 }
 /* gurmukhi */
 @font-face {
@@ -42,17 +51,155 @@ img{
 /*---------------HEADER---------------------------*/
 header{
     background-color: #027e99;
-    padding: 2%;
+    padding: 2% 0;
+    color: #fff;
 }
-.menu-bar{
-    float: right;
+
+header .love{
+   color: #ea728e; 
 }
-.menu-bar li{
-    display: inline-block;
-    padding: 10px;
-}
-.menu-bar li a{
+header a{
     color: #e1f1e6;
     text-decoration: none;
-    font-weight: none;
+    display: block;
 }
+nav ul a:hover{
+    color:#ea728e;
+    transition: 250ms all ease;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    display: inline-block;
+    padding: 5px;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    display: none;
+}
+/*---------------HERO---------------------------*/
+.hero{
+    text-align: center;
+    color: #fff;
+}
+.bunny{
+    background: url(../img/img-1.jpg) no-repeat;
+    background-size: cover;
+}
+.titulo{
+    background: rgba(2,126,153,0.7);
+    margin: 5% 10%;
+}
+.titulo h1{
+    font-size: 70px;
+    padding: 6% 0 0 0;
+    color: #ea728e;
+}
+.titulo p{
+    padding: 5%;
+    letter-spacing: 3px;
+}
+/*---------------GALERIA---------------------------*/
+.bunny-0{
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+    padding:  2%;
+}
+.bun{
+    background-color: #027e99;
+    height: 400px;
+    overflow: hidden;
+}
+.bun-1, .bun-2, .bun-3{
+    margin-right: 5%;
+}
+.bun p{
+    padding: 0 4%;
+}
+/*---------------BUNNIES---------------------------*/
+.bunnies-1{
+    background: #027e99;
+    padding: 2%;
+}
+.bunny-1{
+    background: #f4f9f9;
+}
+.texto{
+    text-align: justify;
+    padding: 0 4%;
+}
+.input{
+    padding: 6%;
+    border-radius: 5px;
+    background: #f4f9f9;
+    margin-bottom: 10px;
+}
+.bunnies iframe{
+    width: 100%;
+}
+.bunny-2, .bunny-3{
+    margin-left: 15px;
+}
+.bunny-3{
+    background: #f4f9f9;
+}
+.input input{width: 100%;padding: 3%;box-sizing: border-box;}
+.iconos{
+    margin: 35px;
+    text-align: center;
+}
+.iconos .ic{
+    display: inline-block;
+    border-radius: 100%;
+    padding: 1% auto;
+    margin: 0 15px;
+    color: #027e99;
+    background: #fff;
+}
+/*---------------BUNNY-HEADINGS---------------------------*/
+.bunny-head{
+    margin: 5px 0;
+    background:url(../img/bunny-head.png) repeat;
+    height: 95px;
+    background-size: contain
+}
+/*---------------FOOTER---------------------------*/
+footer{
+    background: #027e99;
+    padding: 3%;
+    text-align: center;
+    color: #fff;
+    border-top:4px solid #ea728e;
+}
+/*-------------------MEDIA QUERIES------------------------------*/
+@media screen and (max-width:1073px ) {
+	header nav{
+		text-align: center;
+	}
+@media screen and (max-width:900px ) {
+    .contain{width:85%}
+    header nav {display: none;}
+    header .menu-bar a{display: block;float: right;}	
+	}
+@media screen and (max-width:768px ) {
+    .container{width:90%;}
+    .menu-bar{margin-left: 25%;}
+    .bun-1,.bun-3{
+        margin-right: 2%;}
+    .bun-2{margin-right: 0;}
+    .bun-3, .bun-4{margin-top: 2%;}
+    .iconos{margin: 3% 0;}
+}
+@media screen and (max-width:550px ) {
+    .container{width: 95%;}
+    .titulo{margin: 5%;padding: 10%;}
+    .titulo h1{font-size:40px;}
+    .menu-bar{margin-left: 25%;}
+    .bun{margin: 2% 0 1% 0;}
+    .bunny-2, .bunny-3{display: none;}
+    .bunny-1{margin: 2%;}
+} 

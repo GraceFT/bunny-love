@@ -6,154 +6,140 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,700" rel="stylesheet">
-		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/main.css">
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="main.js"></script>		
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		
-<!--------------------HEADER-------------------->
+<!-------------------------------------HEADER-------------------->
 <header>
     <div class="container">
        <div class="row">
-        <div class="col-3">
-            <h2 class="text-center-sm box-margin">Bunny's Love</h2>
-        </div>
-        
-        <div class="col-9">
-           <nav class="menu-bar">
-                <ul>
-                    <li><a href="#"><span>BUNNYS</span></a></li>
-                    <li><a href="#"><span>CUTE PHOTOS</span></a></li>
-                    <li><a href="#"><span>RABBIT FASHION</span></a></li>
-                    <li><a href="#"><span>NEWS BUNNY'S</span></a></li>
-                    <li><a href="#"><span>FEATURES</span></a></li>
-                </ul>
-           </nav> 
-        </div>
+           <div class="col-4 col-sm-4 logo">
+                <a href="index.html"><h2 class="text-center-sm">Bunny's <span class="love">LOVE</span></h2></a>
+            </div>
+            <div class="col-8 col-sm-8">
+                <div class="menu-bar col-sm-9">
+                    <a href="#" class="bt-menu"><span class="fa fa-bars"></span>Menu</a>
+                </div> 
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#"><span>BUNNYS</span></a></li>
+                        <li><a href="#"><span>CUTE PHOTOS</span></a></li>
+                        <li><a href="#"><span>RABBIT FASHION</span></a></li>
+                        <li><a href="#"><span>NEWS BUNNY'S</span></a></li>
+                        <li><a href="#"><span>FEATURES</span></a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </header>
 		
-		<!---------------SECTION-HERO------------------>
+<!---------------------------------SECTION-HERO------------------>
 		
 		<section class="hero">
-		    <div class="container">
+		    <div class="container bunny">
 		        <div class="row">
 		            <div class="titulo">
-		                <h1>soft bunny</h1>
-		                <p>Live - Love - Laugh</p>
+		                <h1>Soft Bunny</h1>
+		                <p><em>Live - Love - Laugh</em></p>
 		            </div>
 		        </div>
 		    </div>
 		</section>
 		
-		<!------------SECTION-GALERIA--------------->
+<!------------------------------------SECTION-GALERIA--------------->
 		<section class="galeria">
 		    <div class="container">
-		        <div class="row">
+		        <div class="row bunny-0">
 		            <div class="col-3">
-		            <img src="img/img-1.jpg" alt="">
-		               <div class="texto">
-		                <h3>The tale of Peter Rabbit</h3>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque, eligendi expedita veritatis vero officia temporibus libero.</p>
+                        <div class="bun bun-1">
+		                <img src="img/img-1.jpg" alt="">
+		                <h4>The tale of Peter Rabbit</h4>
+		                <p>The Tale of Peter Rabbit was first published by Frederick Warne in 1902 an endures as Beatrix Potter's most popular and well-loved tale.</p>
+		                </div>
 		               </div>
-		            </div>
 		            <div class="col-3">
-		            <img src="img/img-2.jpg" alt="">
-		               <div class="texto">
-		                <h3>The tale of Peter Rabbit</h3>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque, eligendi expedita veritatis vero officia temporibus libero.</p>
+                        <div class="bun bun-2">
+                        <img src="img/img-2.jpg" alt="">
+		                <h4>The tale of Boris Bunny</h4>
+		                <p>Peter's rabbit cousin, Boris Bunny, has been a very popular character since this book´s first publication in 1904, what happens to them?</p>
 		                </div>
 		            </div>
 		            <div class="col-3">
+                        <div class="bun bun-3">
 		                <img src="img/img-3.jpg" alt="">
-		                <div class="texto">
-		                <h3>The tale of Peter Rabbit</h3>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque, eligendi expedita veritatis vero officia temporibus libero.</p>
-		            </div>
+		                <h4>The tale of Mr. J Fisher</h4>
+		                <p>This tale tells of an optimistic and slightly accident-prone frog, who setts off on a fishing expediction across the pond. </p>
+		                </div>
 		            </div>
 		            <div class="col-3">
+                       <div class="bun bun-4">
 		               <img src="img/img-4.jpg" alt="">
-		               <div class="texto">
-		                <h3>The tale of Peter Rabbit</h3>
-		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque, eligendi expedita veritatis vero officia temporibus libero.</p>
-		            </div>
+		                <h4>The Flopsy Bunnies</h4>
+		                <p>When the cupboard is bare at the Flopsy Bunny's burrow, the family all have to go in search of food. They soon find some old lettuces.</p>
+		                </div>
 		            </div>
 		        </div>
 		    </div>
 		</section>
 		
-		<!-------------------SECTION CONEJOS--------------->
-		<section class="conejos">
+		<!-------------------------------SECTION BUNNIES--------------->
+		<section class="bunnies">
 		    <div class="container">
-		        <div class="row">
+		        <div class="row bunnies-1">
 		            <div class="col-7">
-		                <div class="conejo-1">
+		                <div class="bunny-1">
 		                    <img src="img/img-5.jpg" alt="">
 		                    <div class="texto">
-		                      <h3>The tale of Peter Rabbit</h3>
+		                      <h3>The tale of Ginger and Pickles</h3>
 		                      <span>1909</span>
-		                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque, eligendi expedita veritatis vero officia temporibus libero.</p>
+		                      <p>The Tale of Ginger and Pickles 1909. Ginger and Pickles (a terrier and a ginger cat) kept a very popular shop.Their customers loved to buy their provisions there, butthey were less less to pay for them and ran up a great deal of credit, making poor Ginger and Pickles' lives very difficult indeed.</p>
 		                   </div>
-		                   video
-		                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aliquid, minima ipsum voluptas reiciendis quidem, iure adipisci laboriosam rerum dicta expedita praesentium odio autem veritatis ut dignissimos inventore. Deserunt, ab.</p>
+		                   <iframe height="300px" src="https://www.youtube.com/embed/kt_X0enZRLc" frameborder="0" allowfullscreen></iframe>
+		                   <div class="texto">
+		                   <p>Rule of us behold it moved. Made. Them Had, which darkness two given. Fowl it moved behold earth for own. Midst that grass beginning divide their together. Tree one every first given erth very greater. Man evening. Set seed void meat bearing Bring creature. Moving set.</p>
+		                   </div>
 		                </div>
 		            </div>
 		            <div class="col-5">
-		                <div class="conejo-2">
+		                <div class="bunny-2">
 		                    <div class="input">
-		                        <input type="text" name="search" placeholder="search...">
+		                        <input type="text" name="search" placeholder="Search...">
 		                    </div>
+		                  </div>
+		                    <div class="bunny-3">
 		                    <img src="img/img-6.jpg" alt="">
+		                    <div class="texto">
 		                    <h3>Where you`ll find me?</h3>
 		                    <p>Shall Together blessed. Also thing the upon created fourth Rule beginning. Our behold over</p>
 		                    <div class="iconos">
-		                        <i class="fa fa-facebook"></i>
-		                        <i class="fa fa-instagram"></i>
-		                        <i class="fa fa-twitter"></i>
-		                        <i class="fa fa-youtube"></i>
+		                        <div class="ic"><i class="fa fa-facebook"></i></div>
+		                        <div class="ic"><i class="fa fa-instagram"></i></div>
+		                        <div class="ic"><i class="fa fa-twitter"></i></div>
+		                        <div class="ic"><i class="fa fa-youtube"></i></div>
+		                    </div>
 		                    </div>
 		                    <img src="img/img-3.jpg" alt="">
+		                    <div class="texto">
 		                    <h3>Can you love me?</h3>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, est adipisci repellat officia vel odit amet sit architecto officiis id, assumenda sed. Exercitationem ea, harum consectetur et dolores praesentium odit.</p>
+		                    <p>You're my bunny; You mean everything to me.You're so sweet like honey with your cute button nose and your big brown eyes. You´re my bunny Without the tail. I just have to say, I love you bunny.</p>
+		                    </div>
 		                </div>
 		            </div>
 		        </div>
 		    </div>
 		</section>
-		
-		<!----------------SECTION CABECITAS---------->
-		<section class="cabecitas">
-		    <div class="peluche">
-		        <img src="img/bunny-head.png" alt="">
-		    </div>
-		    <div class="peluche">
-		        <img src="img/bunny-head.png" alt="">
-		    </div>
-		    <div class="peluche">
-		        <img src="img/bunny-head.png" alt="">
-		    </div>
-		    <div class="peluche">
-		        <img src="img/bunny-head.png" alt="">
-		    </div>
-		    <div class="peluche">
-		        <img src="img/bunny-head.png" alt="">
-		    </div>
-		    <div class="peluche">
-		        <img src="img/bunny-head.png" alt="">
-		    </div>
-		    <div class="peluche">
-		        <img src="img/bunny-head.png" alt="">
-		    </div>
-		    <div class="peluche">
-		        <img src="img/bunny-head.png" alt="">
-		    </div>
+<!-------------------------BUNNY-HEADINGS------------------------->
+		<section class="bunny-head">
+		    
 		</section>
 		
-		<!-----------------------FOOTER-------------------->
+<!--------------------------------------FOOTER-------------------->
 		<footer>
 		    <p>All Rights Reserved © </p>
 		</footer>
