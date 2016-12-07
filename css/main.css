@@ -193,6 +193,8 @@ footer{
     .bun-2{margin-right: 0;}
     .bun-3, .bun-4{margin-top: 2%;}
     .iconos{margin: 3% 0;}
+    .col-5{display: none;}
+    .col-7{width: 100%;}
 }
 @media screen and (max-width:550px ) {
     .container{width: 95%;}
